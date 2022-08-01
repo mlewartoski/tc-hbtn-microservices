@@ -1,0 +1,5 @@
+Microsserviços são uma abordagem de arquitetura para a criação de aplicações.
+Na arquitetura monolítica todas as funções do negócio estão implementadas em um único processo. Como é uma arquitetura mais fácil de entender, ela possui uma curva de aprendizado menor, mas acaba sofrendo em sua escalabilidade, além de apresentar uma alta dependência entre seus componentes.
+Na arquitetura de microsserviços cada serviço é desenvolvido em torno de um conjunto de regras de negócio específico e é implementado de forma independente. Esses microsserviços são distribuídos e levemente acoplados para que as mudanças de uma equipe não corrompam toda a aplicação, tornando a manutenção e evolução dos serviços mais estáveis.
+A vantagem de usar microsserviços é que as equipes de desenvolvimento conseguem criar rapidamente novos componentes de aplicação para atender às necessidades de negócios em constante mudança, uma vez que existe maior flexibilidade e facilidade de adicionar alterações em produção.
+Os microsserviços podem ter sua Comunicação por HTTP, Comunicação por Mensagens ou Comunicação Orientada a Eventos.
