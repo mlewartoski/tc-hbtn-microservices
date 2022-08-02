@@ -1,0 +1,13 @@
+Serverless é um modelo de desenvolvimento nativo em nuvem para criação e execução de aplicações sem o gerenciamento de servidores.
+Os servidores ainda são usados nesse modelo, mas eles são abstraídos do desenvolvimento de aplicações. O provedor de nuvem fica responsável pelas tarefas rotineiras de provisionamento, manutenção e escala da infraestrutura do servidor. Os desenvolvedores só precisam empacotar o código em containers para fazer a implantação.
+Uma função como serviço, ou FaaS, é um tipo de serviço de cloud computing que permite que os desenvolvedores criem, executem e gerenciem pacotes de aplicações como funções, sem a necessidade de se preocupar com a manutenção da infraestrutura.
+Os benefícios de usar arquitetura Serverless são:
+Aumento da produtividade dos desenvolvedores e do tempo de desenvolvimento
+Sem responsabilidade pelo gerenciamento de servidores
+Escala fácil e escala horizontal gerenciada pela plataforma
+Consumo e cobrança de recursos apenas conforme necessário
+As funções podem ser escritas em quase todas as linguagens de programação
+Cloud Computing é um modelo de fornecimento para recursos de computação, no qual diversos servidores, aplicativos, dados e outros recursos são integrados e fornecidos como um serviço pela Internet. Normalmente você paga apenas pelos serviços que você usa, o que ajuda a diminuir os custos operacionais, tornar a infraestrutura mais eficiente e ter escalabilidade de acordo com sua necessidade.
+Na arquitetura monolítica todas as funções do negócio estão implementadas em um único processo.
+Na arquitetura de microsserviços cada serviço é desenvolvido em torno de um conjunto de regras de negócio específico e é implementado de forma independente.
+Na arquitetura serverless um provedor de cloud será o responsável por executar pedaços de código com recursos que irão ser alocados dinamicamente e cobrando apenas pelos recursos usados para executar aquele código em específico.
